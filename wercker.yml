@@ -33,5 +33,5 @@ build:
           echo "node version $(node -v) running"
           echo "npm version $(npm -v) running"
           npm install bower grunt-cli
-          node_modules/bower/bin/bower install
+          node_modules/bower/bin/bower install --allow-root
     - npm-test
